@@ -20,7 +20,6 @@ http://\<server>:8000/api/listings/\<querystring>
 where \<querystring> starts with a ? and an attribute query followed by an susequent attribute queries append with a &
 
 ### Atributes
-The queryable attributes are as follows:
 | Attribute     | Description   | Sample Query  |
 | ------------- |---------------| --------------|
 | area_unit     | Units for area values  | area_unit=SqFt |
