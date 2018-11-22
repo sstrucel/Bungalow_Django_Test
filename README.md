@@ -56,7 +56,8 @@ where C:\challenge_data.csv can be replaced with the location of the specified C
 
 ## Creation of New Records
 
-To create a new record with this api you can use a POST Ajax call to /api/listings/ with the required data in the data parameter. An example is as follows:
+To create a new record with this api you can use a POST Ajax call to /api/listings/ with the required data in the data parameter. 
+### Example
 
 $.ajax({
 
