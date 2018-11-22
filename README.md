@@ -20,7 +20,6 @@ http://\<server>:8000/api/listings/\<querystring>
 where \<querystring> starts with a ? and an attribute query followed by an susequent attribute queries append with a &
 
 ### Atributes
-The queryable attributes are as follows:
 | Attribute     | Description   | Sample Query  |
 | ------------- |---------------| --------------|
 | area_unit     | Units for area values  | area_unit=SqFt |
@@ -57,7 +56,8 @@ where C:\challenge_data.csv can be replaced with the location of the specified C
 
 ## Creation of New Records
 
-To create a new record with this api you can use a POST Ajax call to /api/listings/ with the required data in the data parameter. An example is as follows:
+To create a new record with this api you can use a POST Ajax call to /api/listings/ with the required data in the data parameter. 
+### Example
 
 $.ajax({
 
