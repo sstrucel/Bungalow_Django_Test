@@ -98,3 +98,15 @@ $.ajax({
 ## Notes
 
 Currently the API only allows for exact match queries with the DjangoFilterBackend. However the model was made using field that use type chosen to reflect the source data. Therefore future extension could be made include greater than or less than filter for number or other type specfic filter on certain fields.
+
+## How to run
+
+Install required libraries
+Navigate to project directory
+run command "python manage.py migrate" 
+run command "python manage.py readcsv <location of CSV>"
+run command "python manage.py createsuperuser --email <email> --username <username>" where username is the name you want for the account that can make calls to the api
+run command "python manage.py runserver"
+    
+Now you can make calls to the API with the credentials you specified earlier
+    
