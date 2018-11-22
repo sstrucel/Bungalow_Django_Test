@@ -102,10 +102,15 @@ Currently the API only allows for exact match queries with the DjangoFilterBacke
 ## How to run
 
 Install required libraries
+
 Navigate to project directory
+
 run command "python manage.py migrate" 
+
 run command "python manage.py readcsv <location of CSV>"
+    
 run command "python manage.py createsuperuser --email <email> --username <username>" where username is the name you want for the account that can make calls to the api
+    
 run command "python manage.py runserver"
     
 Now you can make calls to the API with the credentials you specified earlier
